@@ -1,0 +1,60 @@
+{
+    "type": "origins:multiple",
+    "name": "Social",
+    "description": "When you're around other players, you can use your primary power to gain regen for a short while.",
+    "heal": {
+        "type": "origins:active_self",
+        "entity_action": { 
+            "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:regeneration",
+                    "duration": 900
+                }
+        },
+        "cooldown": 3600,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 4
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "announce": {
+        "type": "origins:active_self",
+        "entity_action": { 
+            "type": "origins:execute_command",
+            "command": "tellraw @a {\"text\":\"\",\"color\":\"light_purple\",\"extra\":[{\"selector\":\"@s\"},{\"text\":\" is ready to mate!\"}]}"
+        },
+        "cooldown": 3600,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    },
+    "particles": {
+        "type": "origins:active_self",
+        "entity_action": { 
+            "type": "origins:spawn_particles",
+            "particle": "minecraft:heart",
+            "count": 20,
+            "speed": 0.0,
+            "force": true,
+            "spread": {
+                "x": 3.0,
+                "y": 0.0,
+                "z": 3.0
+            }
+        },
+        "cooldown": 3600,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
+    }
+}

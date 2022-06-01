@@ -1,0 +1,11 @@
+{
+    "type": "origins:action_on_wake_up",
+    "name": "Slimey",
+    "description": "You're slimey, and might drop slime balls from time to time.",
+    "entity_action": {
+      "type": "origins:give",
+      "stack": {
+        "item": "minecraft:slime_ball"
+      } 
+    }
+}

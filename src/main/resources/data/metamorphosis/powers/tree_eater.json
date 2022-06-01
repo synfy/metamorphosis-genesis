@@ -1,0 +1,236 @@
+{
+    "type": "origins:multiple",
+    "name": "Tree Eater",
+    "description": "You can digest bark by clicking on unstripped logs while sneaking.",
+    "eat_oak_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_oak_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:oak_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_spruce_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_spruce_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:spruce_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_birch_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_birch_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:birch_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },"eat_jungle_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_jungle_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:jungle_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_acacia_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_acacia_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:acacia_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_dark_oak_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_dark_oak_log"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:dark_oak_log"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_crimson_bark": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_crimson_stem"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:crimson_stem"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "eat_warped_stem": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:stripped_warped_stem"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:warped_stem"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    }
+}

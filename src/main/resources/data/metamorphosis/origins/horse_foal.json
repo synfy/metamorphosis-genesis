@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "metamorphosis:speed_boost",
+        "metamorphosis:jump_boost",
+        "metamorphosis:cold_resistant",
+        "metamorphosis:prey_animal",
+        "metamorphosis:boat_horse",
+        "metamorphosis:grazing",
+        "metamorphosis:no_flying",
+        "metamorphosis:growth_horse",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:hay_block",
+    "impact": 2,
+    "name": "Horse Foal",
+    "description": "A baby horse."
+    
+}

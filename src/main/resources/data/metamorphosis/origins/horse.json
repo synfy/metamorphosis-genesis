@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "metamorphosis:speed_boost",
+        "metamorphosis:jump_boost",
+        "metamorphosis:cold_resistant",
+        "metamorphosis:boat_horse",
+        "metamorphosis:grazing",
+        "metamorphosis:big",
+        "metamorphosis:no_flying",
+        "metamorphosis:beast_of_burden",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:hay_block",
+    "impact": 2,
+    "name": "Horse",
+    "description": "A horse.",
+    "unchoosable": true
+    
+}

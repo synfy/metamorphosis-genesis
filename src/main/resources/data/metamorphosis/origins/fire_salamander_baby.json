@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:carnivore",
+        "origins:damage_from_snowballs",
+        "metamorphosis:pyrophilic",
+        "metamorphosis:cold_blooded",
+        "metamorphosis:toxic",
+        "metamorphosis:small",
+        "metamorphosis:no_flying",
+        "metamorphosis:growth_fire_salamander",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:lava_bucket",
+    "impact": 2,
+    "name": "Fire Salamander",
+    "description": "The curious little creature that Pliny the Elder wrote about."
+}

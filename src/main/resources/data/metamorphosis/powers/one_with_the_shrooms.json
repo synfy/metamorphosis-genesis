@@ -1,0 +1,23 @@
+{
+    "name": "One With The Shrooms",
+    "description": "Using bonemeal on a grass block will transform it into a mycelium block instead.",
+    "type": "origins:action_on_block_use",
+    "block_action": {
+        "type": "origins:set_block",
+        "block": "minecraft:mycelium"
+    },
+    "block_condition": {
+        "type": "origins:block",
+        "block": "minecraft:grass_block"
+    },
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:bone_meal"
+        }
+    },
+    "held_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+    }
+}

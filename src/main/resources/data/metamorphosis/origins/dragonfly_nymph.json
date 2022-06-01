@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "origins:arthropod",
+        "origins:carnivore",
+        "origins:water_vision",
+        "origins:like_water",
+        "origins:water_breathing",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "metamorphosis:no_flying",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "metamorphosis:less_health",
+        "metamorphosis:growth_dragonfly",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:elytra",
+    "impact": 2,
+    "name": "Dragonfly Nymph",
+    "description": "The juvenile form of one of the fastest flighted insects."
+}

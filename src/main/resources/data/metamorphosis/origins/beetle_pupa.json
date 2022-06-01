@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:arthropod",
+        "metamorphosis:no_flying",
+        "metamorphosis:nocturnal",
+        "metamorphosis:small",
+        "metamorphosis:prone_to_cold",
+        "metamorphosis:no_swimming",
+        "metamorphosis:growth_beetle",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:shield",
+    "impact": 2,
+    "name": "Beetle Larvae",
+    "description": "A little beetle grub."
+    
+}

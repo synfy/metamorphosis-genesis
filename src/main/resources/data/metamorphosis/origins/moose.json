@@ -1,0 +1,22 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "metamorphosis:tree_eater",
+        "metamorphosis:leafy_greens",
+        "metamorphosis:growing_appetite",
+        "metamorphosis:hostile_wolves",
+        "metamorphosis:aquatic_herbivore",
+        "metamorphosis:diver",
+        "metamorphosis:no_flying",
+        "metamorphosis:more_health",
+        "metamorphosis:big",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:dark_oak_sapling",
+    "impact": 1,
+    "unchoosable": true,
+    "name": "Moose",
+    "description": "The largest extant member of the deer family, native to North America"
+
+    
+}

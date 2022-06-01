@@ -1,0 +1,36 @@
+{
+    "name": "Pyrophilic",
+    "description": "You take no fire damage, get regen when on fire, have fire particles, and can swim in lava. Snowballs hit you hard, though.",
+    "type": "origins:multiple",
+    "no_fire_damage": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:fire"
+        }
+    },
+    "regen_in_fire": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 361,
+        "duration_per_stack": 10,
+        "effect": {
+            "effect": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:on_fire"
+        }
+    },
+    "particles": {
+        "type": "origins:particle",
+        "particle": "minecraft:flame",
+        "frequency": 5
+    },
+    "swim_in_lava": {
+        "type": "origins:lava_vision",
+        "s": 0,
+        "v": 15
+    }
+}

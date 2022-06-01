@@ -1,0 +1,24 @@
+{
+    
+    "name": "Strong Legs",
+    "description": "You can jump a bit better than average.",
+    "type": "origins:multiple",
+    "height": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.4
+        }
+    },
+    "damage": {
+        "type": "origins:modify_damage_taken",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "fall"
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": -4
+        }
+    }
+}

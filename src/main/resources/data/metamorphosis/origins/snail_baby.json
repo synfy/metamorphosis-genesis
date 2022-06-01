@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "origins:climbing",
+        "metamorphosis:detritivore",
+        "metamorphosis:thalassophobic",
+        "metamorphosis:slimey",
+        "metamorphosis:shelled",
+        "metamorphosis:moist",
+        "metamorphosis:slow",
+        "metamorphosis:no_flying",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:growth_snail",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 2,
+    "name": "Baby Snail",
+    "description": "A shelled gastropod"
+}

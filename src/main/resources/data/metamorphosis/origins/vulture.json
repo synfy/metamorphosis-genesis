@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:elytra",
+        "origins:launch_into_air",
+        "origins:aerial_combatant",
+        "origins:more_kinetic_damage",
+        "origins:claustrophobia",
+        "origins:fresh_air",
+        "metamorphosis:necrophage",
+        "metamorphosis:strong_stomach",
+        "metamorphosis:bone_breaker",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:feather",
+    "impact": 1,
+    "unchoosable": true,
+    "name": "Lammergeier",
+    "description": "One of the only vulture species that is not bald, and the only known vertebrate whose diet consists of mostly bone."
+}

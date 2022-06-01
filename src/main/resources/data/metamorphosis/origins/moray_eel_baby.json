@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "origins:water_breathing",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "metamorphosis:diver",
+        "metamorphosis:no_flying",
+        "metamorphosis:pescatarian",
+        "metamorphosis:less_health",
+        "metamorphosis:growth_moray",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:tropical_fish",
+    "impact": 3,
+    "name": "Tiger Moray Elver",
+    "description": "A baby moray eel."
+
+    
+}

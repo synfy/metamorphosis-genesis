@@ -1,0 +1,6 @@
+{
+    "type": "metamorphosis:change_size",
+    "name": "Small",
+    "description": "You're only a block tall!",
+    "scale": 0.5
+}

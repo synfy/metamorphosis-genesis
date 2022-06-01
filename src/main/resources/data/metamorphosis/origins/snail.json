@@ -1,0 +1,21 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "origins:climbing",
+        "metamorphosis:detritivore",
+        "metamorphosis:thalassophobic",
+        "metamorphosis:slimey",
+        "metamorphosis:shelled",
+        "metamorphosis:moist",
+        "metamorphosis:no_flying",
+        "metamorphosis:slow",
+        "metamorphosis:small",
+        "metamorphosis:death_controller"
+
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 2,
+    "unchoosable": true,
+    "name": "Snail",
+    "description": "A shelled gastropod"
+}

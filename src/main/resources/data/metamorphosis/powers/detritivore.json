@@ -1,0 +1,16 @@
+{
+    "type": "origins:action_on_item_use",
+    "name": "Detritivore",
+    "description": "You're good at breaking down food into nutrients.",
+    "entity_action": {
+        "type": "origins:chance",
+        "chance": 0.1,
+        "action": {
+            "type": "origins:give",
+            "stack": {
+                "item": "minecraft:bone_meal",
+                "amount": 1
+            }
+        }
+    }
+}

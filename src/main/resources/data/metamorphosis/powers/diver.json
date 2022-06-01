@@ -1,0 +1,9 @@
+{
+    "name": "Diver",
+    "description": "You swim often, and you're a little bit better at it than others.",
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.02
+    }
+}

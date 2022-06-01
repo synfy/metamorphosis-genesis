@@ -1,0 +1,10 @@
+{
+    "name": "Strong Stomach",
+    "description": "If you're seeing this, I messed up. This is a hidden helper ability for Necrophage",
+    "hidden": true, 
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:hunger",
+        "minecraft:poison"
+    ]
+}

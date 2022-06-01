@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:arthropod",
+        "origins:elytra",
+        "metamorphosis:small",
+        "metamorphosis:flutter",
+        "metamorphosis:horny",
+        "metamorphosis:less_health",
+        "metamorphosis:no_stomach",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:oak_leaves",
+    "impact": 1,
+    "unchoosable": true,
+    "name": "Luna Moth",
+    "description": "A giant silk moth native to North America"
+
+    
+}

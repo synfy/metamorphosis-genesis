@@ -1,0 +1,32 @@
+{
+    "type": "origins:prevent_item_use",
+    "name": "Ossifrage ossiphage",
+    "description": "With a stomach acid pH of 1, you can digest rotten flesh, spider eyes, and bones with no problem. They're your primary diet, in fact.",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": [
+                    {
+                        "item": "minecraft:rotten_flesh"
+                    },
+                    {
+                        "item": "minecraft:spider_eye"
+                    }
+                ],
+                "inverted": true
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                "tag": "origins:ignore_diet"
+                },
+                "inverted": true
+            }
+        ]
+    }
+}

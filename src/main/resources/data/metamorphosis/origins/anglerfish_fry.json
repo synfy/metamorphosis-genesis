@@ -1,0 +1,23 @@
+{
+    "powers": [
+        "origins:water_breathing",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "origins:carnivore",
+        "metamorphosis:no_flying",
+        "metamorphosis:less_health",
+        "metamorphosis:nocturnal",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:growth_anglerfish",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:cod",
+    "impact": 3,
+    "name": "Anglerfish Fry",
+    "description": "A baby anglerfish."
+}

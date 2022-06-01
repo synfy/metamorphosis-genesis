@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:fall_immunity",
+        "origins:carnivore",
+        "metamorphosis:thalassophobic",
+        "metamorphosis:hostile_wolves",
+        "metamorphosis:necrophage",
+        "metamorphosis:strong_stomach",
+        "metamorphosis:toxic",
+        "metamorphosis:bug_killer",
+        "metamorphosis:no_flying",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 2,
+    "unchoosable": true,
+    "name": "Cane Toad",
+    "description": "A large toad, famous for its toxic secretions."
+}

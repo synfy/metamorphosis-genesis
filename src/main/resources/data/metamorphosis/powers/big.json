@@ -1,0 +1,6 @@
+{
+    "type": "metamorphosis:change_size",
+    "name": "Big",
+    "description": "You're bigger than a human.",
+    "scale": 1.5
+}

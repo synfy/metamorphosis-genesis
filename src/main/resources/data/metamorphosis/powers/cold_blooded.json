@@ -1,0 +1,67 @@
+{
+    "name": "Cold Blooded",
+    "description": "You like to have higher temperatures. The cooler the biome, the slower you'll get. In frozen biomes, you'll take damage.",
+    "type": "origins:multiple",
+    "temperate_biomes": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -20,
+        "max_stacks": 361,
+        "duration_per_stack": 10,
+        "effect": {
+            "effect": "minecraft:slowness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 1
+            }
+        }
+    },
+    "cool_biomes": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -20,
+        "max_stacks": 361,
+        "duration_per_stack": 10,
+        "effect": {
+            "effect": "minecraft:slowness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0.5
+            }
+        }
+    },
+    "cold_biomes": {
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 2,
+        "damage_easy": 1,
+        "damage_source": {
+            "name": "freeze",
+            "unblockable": true,
+            "bypasses_armor": true
+        },
+        "protection_enchantment": "fire_protection",
+        "protection_effectiveness": 1.0,
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<=",
+                "compare_to": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:elytra",
+        "origins:slow_falling",
+        "origins:more_kinetic_damage",
+        "origins:fresh_air",
+        "origins:claustrophobia",
+        "metamorphosis:nearly_aquatic",
+        "metamorphosis:pescatarian",
+        "metamorphosis:takeoff",
+        "metamorphosis:big",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:feather",
+    "impact": 2,
+    "unchoosable": true,
+    "name": "Albatross",
+    "description": "One of the largest flying birds alive, albatrosses can cover great distances with ease by soaring."
+}

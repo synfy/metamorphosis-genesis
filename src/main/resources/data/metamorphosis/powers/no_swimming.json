@@ -1,0 +1,5 @@
+{
+    "name": "No Swimming",
+    "description": "You can't swim, and will sink in water.",
+    "type": "origins:ignore_water"
+}

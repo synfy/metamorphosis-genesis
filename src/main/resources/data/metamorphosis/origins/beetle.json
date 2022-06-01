@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "origins:arthropod",
+        "origins:natural_armor",
+        "metamorphosis:no_flying",
+        "metamorphosis:short",
+        "metamorphosis:prone_to_cold",
+        "metamorphosis:no_swimming",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:shield",
+    "impact": 2,
+    "name": "Ironclad Beetle",
+    "description": "A beetle with the strongest known shell, which can withstand massive amounts of pressure.",
+    "unchoosable": true
+    
+}

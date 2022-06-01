@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "metamorphosis:necrophage",
+        "metamorphosis:strong_stomach",
+        "metamorphosis:one_with_the_shrooms",
+        "metamorphosis:creeping_mycelium",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:no_flying",
+        "metamorphosis:way_less_health",
+        "metamorphosis:growth_fly_amanita",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:red_mushroom",
+    "impact": 3,
+    "name": "Fly Amanita Mycelium",
+    "description": "The mycelium of the amanita muscaria, one of the most famous toadstools in the world."
+
+    
+}

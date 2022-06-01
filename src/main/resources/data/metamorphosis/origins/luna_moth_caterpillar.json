@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "origins:climbing",
+        "origins:vegetarian",
+        "origins:arthropod",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:much_less_health",
+        "metamorphosis:leafy_greens",
+        "metamorphosis:no_flying",
+        "metamorphosis:growing_appetite",
+        "metamorphosis:growth_luna_moth",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:oak_leaves",
+    "impact": 2,
+    "name": "Luna Moth Caterpillar",
+    "description": "The juvenile form of the Luna Moth"
+
+    
+}

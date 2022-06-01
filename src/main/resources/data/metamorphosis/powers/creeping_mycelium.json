@@ -1,0 +1,100 @@
+{
+    "name": "Creeping Mycelium",
+    "description": "You can toggle the ability to phase through dirt, mushrooms, or anything mushrooms can grow on.",
+    "type": "origins:multiple",
+    "particles": {
+        "type": "origins:particle",
+        "frequency": 5,
+        "particle": "minecraft:mycelium"
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": false
+        },
+        "retain_state": false
+    },
+    "digging":{
+        "type": "origins:phasing",
+        "blacklist": false,
+        "render_type": "blindness",
+        "view_distance": 10,
+        "block_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:dirt"
+                },
+                {
+                    "type": "origins:in_tag",
+                    "tag": "minecraft:mushroom_grow_block"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:red_mushroom_block"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:brown_mushroom_block"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:mushroom_stem"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:nether_wart_block"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:warped_wart_block"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:crimson_stem"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:warped_stem"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:stripped_crimson_stem"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:stripped_warped_stem"
+                },
+                {
+                    "type": "origins:block",
+                    "block": "minecraft:shroomlight"
+                }
+            ]
+        },
+        "phase_down_condition": {
+            "type": "origins:and",
+            "conditions": [
+            {
+                "type": "origins:sneaking"
+            },
+            {
+                "type": "origins:on_block"
+            }
+            ]
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "*:*_toggle"
+        }
+    },
+    "immune_to_wall": {
+        "type": "origins:invulnerability",
+        "damage_condition": {
+            "type": "origins:name",
+            "name": "inWall"
+        }
+    }
+}

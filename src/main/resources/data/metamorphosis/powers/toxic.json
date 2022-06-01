@@ -1,0 +1,26 @@
+{
+    "name": "Toxic",
+    "description": "Whenever something hits you, there's a chance to give them nausea and poison for a bit. Toxic gamer smh.",
+    "type": "origins:action_when_hit",
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:chance",
+            "chance": 0.5,
+            "action": {
+                "type": "origins:apply_effect",
+                "effects": [
+                    {
+                        "effect": "minecraft:poison",
+                        "duration": 50
+                    },
+                    {
+                        "effect": "minecraft:nausea",
+                        "duration": 100
+                    }
+                ]
+            
+            }
+        }
+    }
+}

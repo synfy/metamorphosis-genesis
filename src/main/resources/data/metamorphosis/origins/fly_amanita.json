@@ -1,0 +1,21 @@
+{
+    "powers": [
+        "metamorphosis:necrophage",
+        "metamorphosis:strong_stomach",
+        "metamorphosis:one_with_the_shrooms",
+        "metamorphosis:creeping_mycelium",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:much_less_health",
+        "metamorphosis:toxic",
+        "metamorphosis:no_flying",
+        "metamorphosis:spore_cloud",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:red_mushroom",
+    "impact": 2,
+    "unchoosable": true,
+    "name": "Fly Amanita Mushroom",
+    "description": "The mature fruiting body of the amanita muscaria, one of the most famous toadstools in the world."
+
+    
+}

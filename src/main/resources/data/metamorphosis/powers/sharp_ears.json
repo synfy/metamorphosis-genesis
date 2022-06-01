@@ -1,0 +1,14 @@
+{
+    "type": "origins:entity_glow",
+    "name": "Sharp Ears",
+    "description": "You've got sharp ears and can detect nearby creatures, even through blocks.",
+    "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 20
+    },
+    "use_teams": false,
+    "red": 1.0,
+    "green": 1.0,
+    "blue": 0.0
+}

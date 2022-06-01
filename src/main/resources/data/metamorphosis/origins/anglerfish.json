@@ -1,0 +1,24 @@
+{
+    "powers": [
+        "origins:water_breathing",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "metamorphosis:no_flying",
+        "origins:carnivore",
+        "metamorphosis:bioluminescence",
+        "metamorphosis:nocturnal",
+        "metamorphosis:small",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:cod",
+    "impact": 3,
+    "name": "Anglerfish",
+    "description": "An anglerfish.",
+    "unchoosable": true
+    
+}

@@ -1,0 +1,26 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "origins:water_breathing",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aquatic",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "metamorphosis:aquatic_herbivore",
+        "metamorphosis:no_flying",
+        "metamorphosis:thalassophobic",
+        "metamorphosis:less_health",
+        "metamorphosis:itty_bitty",
+        "metamorphosis:growth_frog",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 3,
+    "name": "Frog Tadpole",
+    "description": "A little tadpole, full of ambition."
+
+    
+}

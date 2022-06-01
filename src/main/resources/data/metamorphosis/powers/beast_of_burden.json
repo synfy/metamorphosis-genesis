@@ -1,0 +1,34 @@
+{
+    "name": "Beast of Burden",
+    "description": "You're strong and can carry a lot. You can do a bit more damage unarmed, and you've got some extra inventory space that can be accessed with your primary power key.",
+    "type": "origins:multiple",
+    "beast": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:damage",
+            "amount": 3,
+            "source": {
+                "name": "player",
+                "bypasses_armor": true
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:actor_condition",
+            "condition": {
+                "type": "origins:using_item",
+                "item_condition": {
+                    "type": "origins:empty"
+                }
+            }
+        }
+    },
+    "burden":{
+        "type": "origins:inventory",
+        "title": "container.shulker_inventory_power",
+        "drop_on_death": true,
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        }
+    }
+}

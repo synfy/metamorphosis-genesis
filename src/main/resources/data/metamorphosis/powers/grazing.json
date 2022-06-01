@@ -1,0 +1,206 @@
+{
+    "name": "Grazing",
+    "description": "Your diet consists of carrots, apples, and wheat. By right clicking while sneaking, you can also eat hay bales and grass, too.",
+    "type": "origins:multiple",
+    "apples_and_carrots": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {  
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:apple"
+                    },
+                    "inverted": true
+                },
+                {  
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:carrot"
+                    },
+                    "inverted": true
+                },
+                {  
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_apple"
+                    },
+                    "inverted": true
+                },
+                {  
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:golden_carrot"
+                    },
+                    "inverted": true
+                },
+                {  
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "item": "minecraft:enchanted_golden_apple"
+                    },
+                    "inverted": true
+                },
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "origins:ignore_diet"
+                    },
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "wheat": {
+        "key": "key.use",
+        "type": "origins:active_self",
+         "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:food_level",
+                "comparison": "!=",
+                "compare_to": 20
+            },
+            "if_action": {
+                "type": "origins:if_else",
+                "condition": {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "mainhand",
+                            "item_condition": {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "item": "minecraft:wheat"
+                                }
+                            }
+                        },
+                            {
+                                "type": "origins:equipped_item",
+                                "equipment_slot": "offhand",
+                                "item_condition": {
+                                    "type": "origins:ingredient",
+                                    "ingredient": {
+                                        "item": "minecraft:wheat"
+                                    }
+                                }
+                            }   
+                    ]
+                },
+                "if_action": {
+                    "type": "origins:and",
+                    "actions": [
+                        {
+                            "type": "origins:execute_command",
+                            "command": "clear @s minecraft:wheat 1",
+                            "permission_level": 4
+                        },
+                        {
+                            "type": "origins:feed",
+                            "food": 1,
+                            "saturation": 1
+                        }
+                    ]
+                }
+                    
+            }
+        },
+        "cooldown": 1,
+        "hud_render": 
+        {
+          "should_render": false
+        }
+    },
+    "hay_bales": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 10,
+            "saturation": 12
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:hay_block"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "short_grass": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 1,
+            "saturation": 1
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:grass"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    },
+    "tall_grass": {
+        "type": "origins:action_on_block_use",
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 2,
+            "saturation": 2
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:air"
+        },
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:tall_grass"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:sneaking"
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "!=",
+                    "compare_to": 20
+                }
+            ]
+        }
+    }
+}

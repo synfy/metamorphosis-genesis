@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "name": "Snail Speed",
+    "description": "What, did you think you were going to be the next snail pro racer? nah bro",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_total",
+        "value": -0.35
+    }
+}

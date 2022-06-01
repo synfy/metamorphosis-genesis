@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:carnivore",
+        "origins:light_armor",
+        "metamorphosis:camouflage",
+        "metamorphosis:speed_boost",
+        "metamorphosis:nocturnal",
+        "metamorphosis:sharp_ears",
+        "metamorphosis:small",
+        "metamorphosis:no_flying",
+        "metamorphosis:much_less_health",
+        "metamorphosis:growth_screech_owl",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:feather",
+    "impact": 2,
+    "name": "Screech Owl",
+    "description": "One day, you'll be a big bird. Er, well. Maybe just a slightly less small bird. But you have to figure out how to fly first."
+}

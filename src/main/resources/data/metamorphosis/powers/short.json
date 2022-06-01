@@ -1,0 +1,6 @@
+{
+    "type": "metamorphosis:change_size",
+    "name": "Short",
+    "description": "You're half a block shorter than humans.",
+    "scale": 0.75
+}

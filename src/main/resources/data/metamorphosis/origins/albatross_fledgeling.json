@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:slow_falling",
+        "origins:more_kinetic_damage",
+        "origins:fresh_air",
+        "origins:claustrophobia",
+        "metamorphosis:no_flying",
+        "metamorphosis:nearly_aquatic",
+        "metamorphosis:camouflage",
+        "metamorphosis:pescatarian",
+        "metamorphosis:less_health",
+        "metamorphosis:growth_albatross",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:feather",
+    "impact": 2,
+    "name": "Albatross Fledgeling",
+    "description": "One day, you'll be a big bird. But you have to figure out how to fly first."
+}

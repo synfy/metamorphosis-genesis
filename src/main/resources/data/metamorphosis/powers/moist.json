@@ -1,0 +1,19 @@
+{
+    "type": "origins:damage_over_time",
+    "name": "Moist",
+    "description": "You're very sensitive to humidity. In dry biomes, you'll start to take damage as you dry out.",
+    "interval": 10,
+    "damage": 1,
+    "damage_source": {
+        "name": "dryout",
+        "bypasses_armor": true,
+        "protection_enchantment": "minecraft:fire_protection"
+    },
+    "condition": {
+        "type": "origins:biome",
+        "condition": {
+            "type": "origins:precipitation",
+            "precipitation": "none"
+        }
+    }
+}

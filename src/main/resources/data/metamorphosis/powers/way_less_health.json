@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+    "name": "Way Less Health",
+    "description": "You have far less health than average",
+    "modifier": {
+      "attribute": "minecraft:generic.max_health",
+      "value": -6.0,
+      "operation": "addition"
+    }
+  }

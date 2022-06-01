@@ -1,0 +1,9 @@
+{
+    "name": "Cold Resistant",
+    "description": "You're hardy to the cold, and don't take freezing damage.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "freeze"
+    }
+}

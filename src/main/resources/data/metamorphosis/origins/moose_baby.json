@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "metamorphosis:tree_eater",
+        "metamorphosis:leafy_greens",
+        "metamorphosis:growing_appetite",
+        "metamorphosis:hostile_wolves",
+        "metamorphosis:no_flying",
+        "metamorphosis:flee",
+        "metamorphosis:growth_moose",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:dark_oak_sapling",
+    "impact": 1,
+    "name": "Baby Moose",
+    "description": "A baby moose"
+
+    
+}

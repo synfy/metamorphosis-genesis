@@ -1,0 +1,27 @@
+{
+    "type": "origins:prevent_item_use",
+    "name": "Pescatarian",
+    "description": "Your diet consists of fish.",
+    "item_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {  
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "minecraft:fishes"
+                },
+                "inverted": true
+            },
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                "tag": "origins:ignore_diet"
+                },
+                "inverted": true
+            }
+        ]
+    }
+}

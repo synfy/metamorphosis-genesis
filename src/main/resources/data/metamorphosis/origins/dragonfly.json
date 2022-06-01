@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "origins:arthropod",
+        "origins:elytra",
+        "origins:carnivore",
+        "origins:launch_into_air",
+        "origins:aerial_combatant",
+        "metamorphosis:terraphobic",
+        "metamorphosis:nearly_aquatic",
+        "metamorphosis:cold_blooded",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:elytra",
+    "impact": 2,
+    "name": "Dragonfly",
+    "description": "One of the fastest flighted insects.",
+    "unchoosable": true
+}

@@ -1,0 +1,6 @@
+{
+    "name": "No Flying",
+    "description": "You shouldn't be able to see this.",
+    "hidden": true,
+    "type": "origins:prevent_elytra_flight"
+}

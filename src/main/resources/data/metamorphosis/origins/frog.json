@@ -1,0 +1,23 @@
+{
+    "powers": [
+        "origins:fall_immunity",
+        "origins:carnivore",
+        "origins:climbing",
+        "metamorphosis:bug_killer",
+        "metamorphosis:slimey",
+        "metamorphosis:jump_boost",
+        "metamorphosis:moist",
+        "metamorphosis:no_flying",
+        "metamorphosis:thalassophobic",
+        "metamorphosis:tropical",
+        "metamorphosis:diver",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:slime_ball",
+    "impact": 1,
+    "unchoosable": true,
+    "name": "Coqui Frog",
+    "description": "An arboreal frog native to Puerto Rico"
+
+    
+}

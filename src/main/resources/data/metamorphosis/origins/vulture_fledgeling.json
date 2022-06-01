@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "origins:fresh_air",
+        "origins:claustrophobia",
+        "metamorphosis:camouflage",
+        "metamorphosis:short",
+        "metamorphosis:necrophage",
+        "metamorphosis:strong_stomach",
+        "metamorphosis:bone_breaker",
+        "metamorphosis:less_health",
+        "metamorphosis:no_flying",
+        "metamorphosis:growth_vulture",
+        "metamorphosis:death_controller"
+    ],
+    "icon": "minecraft:feather",
+    "impact": 1,
+    "name": "Lammergeier Fledgeling",
+    "description": "One day, you'll be a big bird. But you have to figure out how to fly first."
+}

@@ -1,0 +1,30 @@
+{
+    "type": "origins:active_self",
+    "name": "Shelled",
+    "description": "You can pull back into your shell to gain resistance to damage, but you won't be able to move well.",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "duration": 600,
+                "amplifier": 4
+            },
+            {
+                "effect": "minecraft:resistance",
+                "duration": 600,
+                "amplifier": 4
+            }
+        ]
+        
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 0
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    }
+}
