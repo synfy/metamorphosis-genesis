@@ -1,0 +1,58 @@
+.underline{
+  border-bottom: double 4px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(whitesmoke, whitesmoke), radial-gradient(circle at top left,#67b73c, #47d0d6);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.descCard{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 150px;
+  width: 50vw;
+  max-width: 500px;
+  height: fit-content;
+  background-color: white;
+}
+
+.cardTitle{
+  border: 10px;
+  font-size: 20px;
+  border-bottom: double 4px transparent;
+  border-radius: 4px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left,#67b73c, #47d0d6);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.cardBody{
+  font-size: 15px;
+  color:dimgrey;
+  background-color: white;
+}
+
+.spoiler{
+  background-color: black;
+  color: black;
+  padding: 1px;
+}
+
+.spoiler:hover{
+  background-color:white
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:center;
+}
+
+.command{
+  background-color: lightgrey;
+  border-left: 4px solid grey;
+  padding:2px
+}

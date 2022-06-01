@@ -2,9 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Metamorphosis: Genesis</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body style="background-color: whitesmoke;">
+    <div style="text-align:center; padding-bottom: 35px;">
+        <span style="font-size: 35px" class="underline">Metamorphosis: Genesis</span>
+    </div>
+
+    <div class="flex-container">
+        <div style="padding-bottom:20px">
+            <div class="descCard">
+                <span class="cardTitle">About Metamorphosis</span>
+                <div class="cardBody">
+                    <p>Metamorphosis is an Origins addon, which replaces the default origins with 
+                        new ones, centered around a theme. You start as a baby, with more weaknesses than powers, but eventually you grow 
+                        into your more powerful adult form. Each time you die, though, you start over 
+                        with a new random origin, and you're back to being a baby again.</p>
+                    <p>Inspired in part by Afterlife SMP, part of the X Life series</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-bottom:20px">
+            <div class="descCard">
+                <span class="cardTitle">About Genesis</span>
+                <div class="cardBody">
+                    <p>
+                        This is the first Metamorphosis mod, made for Minecraft version 1.18.1. It features 
+                        primarily real organisms, with an emphasis on a large difference between 
+                        the playstyles and abilities of adult and baby forms.
+                    </p>
+                    <p>
+                        This mod was made primarily for the private server that my friends and I play on, 
+                        so if you aren't on that server, then I'm not really sure how you found this. Feel 
+                        free to play with this mod, though if you're going to add it to a modpack I'd 
+                        appreciate a heads-up, use the Issues tab on GitHub for that.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-bottom:20px">
+            <div class="descCard">
+                <span class="cardTitle">Commands and Mechanics</span>
+                <div class="cardBody">
+                    <p>
+                        The growth from the baby version to the adult version is controlled by <span class="spoiler">XP</span>. 
+                        In order to grow up, the following condition must be met: <span class="spoiler">player must have 45 levels</span>. 
+                        Once the condition is met, the player must <span class="spoiler">sleep in a bed</span> to trigger the growth.
+                    </p>
+                    <p>
+                        This mod can be played with a pseudo-hardcore mode, where players only have ten lives. After their last death, 
+                        players will be put into spectator mode and will no longer be able to interact with the world. This is controlled
+                        through the scoreboard, so it can be enabled by running this command in chat:
+                    </p>
+                    <p class="command">
+                        /scoreboard objectives add deathCount deathCount ["Deaths"]
+                    </p>
+                    <p>
+                        Operators on a server, or individuals on single player with cheats enabled can reroll their origin to randomly 
+                        reassign a new origin to themselves or others. 
+                    </p>
+                    <p class="command">
+                        /reroll playerName
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align:center; padding-bottom: 35px;">
+        <span style="font-size: 30px" class="underline">Origins</span>
+    </div>
 
 </body>
 </html>
